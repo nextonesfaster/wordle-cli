@@ -54,7 +54,7 @@ The executable will be at `./target/release/wrdl`. You can move it to your `PATH
 
 ## Configuration
 
-`wordle-cli` uses two lists of words: valid words and allowed guesses. These words are stored in json files. See the [data](#data) directory for the default lists.
+`wordle-cli` uses two lists of words: valid words and allowed guesses. These words are stored in json files. See the [data](data) directory for the default lists.
 
 Default lists are included in the binary when it is compiled. You can provide custom lists using the `-w` and `-a` options.
 
